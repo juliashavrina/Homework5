@@ -53,7 +53,9 @@ void CreateNewString(string[] args)
     }
     }
   }
-  
+  for (int j = 0; j < animalsnew.Length; j++)
+      Console.Write(animalsnew [j] + " ");
+ Console.WriteLine(); 
    
 }
 CreateNewString (args); 
